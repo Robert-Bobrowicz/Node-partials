@@ -1,0 +1,6 @@
+<% if(user) {%>
+    <p>User: <b><%- user.name %></b></p>
+    <p>e-mail: <b><%- user.email%></b></p>
+    <% } else { %>
+        <p>Nie ma takiego użytkownika</p>
+        <% } %>
